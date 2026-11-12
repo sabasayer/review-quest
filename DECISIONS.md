@@ -38,6 +38,15 @@ The game adds fun next to the review work. It is not a second job.
 - **No server.** The game computes its state from GitLab events.
 - **First toy has four nouns.** Hero, monster, gun, egg.
 
+## Decided after the research (2026-11-10)
+
+- **The game is a web app for now.** It runs in a browser tab. Electron comes later, only if we need it.
+- **All players use a MacBook.** One player now. Later, 20 to 30 engineers.
+- **GitLab can give every signal we want.** One player needs a read-only token and no server.
+- **Two signals are weak.** A resolved thread and the review request time are not events. The game must read each MR again.
+- **The game needs a small local save.** Random loot cannot come from GitLab events alone.
+- **The plan ends at a game design document.** The real build is a new plan after that.
+
 ## Later
 
 - **Team boss.** The pile of waiting MRs is one boss. Every review from anyone hits it. Start with one company boss per week. Nobody signs up: if you reviewed, you are in the fight.
