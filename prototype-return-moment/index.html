@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>Review Quest: return moment prototype</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Review Quest <small>prototype: the return moment</small></h1>
+        <div id="focusControls"></div>
+      </header>
+      <section id="gitlab">
+        <div class="col">
+          <div class="colhead"><h2>Fake GitLab: waiting for your review</h2><button data-a="new-mr">New MR arrives</button></div>
+          <div id="mrList"></div>
+        </div>
+        <div class="col">
+          <div class="colhead"><h2>Your own MRs (eggs)</h2><button data-a="new-egg">New own MR</button></div>
+          <div id="eggList"></div>
+        </div>
+      </section>
+      <section id="readout"></section>
+      <section id="strip">
+        <canvas id="canvas" height="180"></canvas>
+        <div id="curtain" class="curtain up"><div>You are reviewing…<br />the hero fights without you</div></div>
+        <div id="popup" class="popup" hidden></div>
+      </section>
+    </div>
+    <div id="overlay" class="overlay" hidden></div>
+    <div id="bar"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
