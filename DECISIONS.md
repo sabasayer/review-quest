@@ -33,14 +33,30 @@ The game adds fun next to the review work. It is not a second job.
 - **Idle time is alive.** The ship always mines small resources. Small people run inside it, and parts move. MRs are the big resources.
 - **Your own MRs are eggs.** An egg hatches when a colleague reviews it. The pet lives on your ship.
 - **Lots of guns, not violent.** The guns are absurd modules. They make the review burst bigger.
-- **Not real Factorio.** No belts and no layout work. You pick the next upgrade from a few options.
+- **Not real Factorio.** No belts and no logistics. You pick the next module from a few options and you place it.
 - **The return is the key moment.** You see a short summary of what you earned. Then you spend it.
 
-## Open after the second prototype (2026-11-13)
+## How the ship grows (grilled 2026-11-13)
 
-- **How a module gets its place.** The player picks the place, or the ship grows in random directions. The player thinks that picking is more fun.
-- **How to make the first choices real.** At the start everything is cheap, so the player buys all of it. Rising prices felt good later.
-- **The numbers.** The toy grows too fast after two sessions.
+- **The player places each new module.**
+- **The view is a side view, cut open.** You see decks on top of each other. Small people run inside.
+- **Room is a cell budget.** Each ship class gives a number of cells. A new module must touch a module you have. The shape is yours.
+- **Four ship classes:** Shuttle 6 cells, Frigate 12, Cruiser 24, Station 48. The numbers are a scale, not final.
+- **A new class keeps your layout.** You get more cells and the view zooms out one step.
+- **Every module is one cell.** Bigger modules are a later reward.
+- **The edge rule.** Guns, mining lasers and sails must sit on the outside. Inside modules can sit anywhere.
+- **Modules have levels 1 to 3.** An upgrade uses no cell.
+- **You can move modules for free.** You can scrap a module and get half its gold back.
+- **Research points have two uses.** New module kinds, or the next ship class.
+- **Gold and room are both tight from the first minute.** The shop shows three modules and you can pay for one.
+- **The default view shows the whole ship.** You can zoom in on a part. The camera does not move by itself.
+
+## Still open
+
+- **Neighbour effects.** Does a module get a bonus from the module next to it? A toy must test this first.
+- **The numbers.** The second toy grows too fast after two sessions.
+- **Which review actions give which rewards.**
+- **The core loop of one work day,** and what the player sees in idle time.
 
 ## Rules that stay
 
@@ -72,5 +88,5 @@ The game adds fun next to the review work. It is not a second job.
 ## The plan
 
 1. Build prototypes until the return moment is fun.
-2. Grill the design.
+2. Grill the design. Then one more prototype tests the placing.
 3. Write a game design document. The real build is a new plan after that.

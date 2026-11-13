@@ -7,6 +7,7 @@ The name is a working name. The game is not built yet. This repo holds the plan.
 ## Where things are
 
 - [DECISIONS.md](DECISIONS.md): the decisions so far.
+- [GLOSSARY.md](GLOSSARY.md): the words of the game.
 - [The map](https://github.com/sabasayer/review-quest/issues/1): the plan. Each ticket is a sub-issue of the map.
 - Research findings are on the `research/...` branches. Each closed research ticket links to its file.
 
