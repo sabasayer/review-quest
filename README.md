@@ -1,6 +1,6 @@
 # review-quest
 
-An idle game that rewards code review. Your review queue is the monster wave. Each review makes your character stronger.
+An idle builder game that rewards code review. You own a spaceship. Each review makes it grow fast.
 
 The name is a working name. The game is not built yet. This repo holds the plan.
 
@@ -16,12 +16,13 @@ The name is a working name. The game is not built yet. This repo holds the plan.
 2. Read the map. It lists the closed decisions and the open questions.
 3. Take the next open ticket that nothing blocks.
 
-The next ticket is the prototype: [Does the return moment feel good?](https://github.com/sabasayer/review-quest/issues/2)
+Implementation runs on a Sonnet sub-agent. The session agent briefs it and checks the result.
 
-## Rules for the prototype
+## Prototypes
 
-- TypeScript + Vite + Canvas 2D. It runs in a browser tab.
-- A button fakes a review. No GitLab.
-- Four nouns only: hero, monster, gun, egg.
-- It tests one thing: you look at the game after some reviews, you see a summary, you open loot, you make one small choice. Does this feel like a reward?
-- It is throwaway code. Do not grow it before the answer is clear.
+Each prototype is throwaway code on its own branch, not on `main`.
+
+- `prototype/return-moment`: a hero that fights alone. Verdict: nothing to decide, nothing to see.
+- `prototype/ship-builder`: the idle spaceship builder. In test.
+
+Prototypes use TypeScript + Vite + Canvas 2D. Buttons fake the reviews. No GitLab.
