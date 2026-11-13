@@ -20,7 +20,8 @@ The game adds fun next to the review work. It is not a second job.
 
 ## The game
 
-- **You own a spaceship.** It grows longer, module by module.
+- **You own a spaceship.** It grows module by module, in two dimensions, with many layers.
+- **The view zooms out as the ship grows.** A huge ship is the trophy.
 - **You choose the upgrades.** The choice is the fun, because you look at the game only a few times a day.
 - **Every upgrade is a visible part.** A bigger number alone is not a reward.
 - **The game runs alone, slowly.** Reviews make it fast.
@@ -29,10 +30,17 @@ The game adds fun next to the review work. It is not a second job.
   - Research points come only from reviews. They unlock new kinds of modules.
 - **Each MR that waits for your review is an asteroid.** It drifts next to the ship. An old MR is a bigger asteroid. A large diff holds more ore.
 - **A review mines the asteroid.** A comment is a laser hit. An approve cracks it open.
+- **Idle time is alive.** The ship always mines small resources. Small people run inside it, and parts move. MRs are the big resources.
 - **Your own MRs are eggs.** An egg hatches when a colleague reviews it. The pet lives on your ship.
 - **Lots of guns, not violent.** The guns are absurd modules. They make the review burst bigger.
 - **Not real Factorio.** No belts and no layout work. You pick the next upgrade from a few options.
 - **The return is the key moment.** You see a short summary of what you earned. Then you spend it.
+
+## Open after the second prototype (2026-11-13)
+
+- **How a module gets its place.** The player picks the place, or the ship grows in random directions. The player thinks that picking is more fun.
+- **How to make the first choices real.** At the start everything is cheap, so the player buys all of it. Rising prices felt good later.
+- **The numbers.** The toy grows too fast after two sessions.
 
 ## Rules that stay
 

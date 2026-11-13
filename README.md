@@ -23,6 +23,6 @@ Implementation runs on a Sonnet sub-agent. The session agent briefs it and check
 Each prototype is throwaway code on its own branch, not on `main`.
 
 - `prototype/return-moment`: a hero that fights alone. Verdict: nothing to decide, nothing to see.
-- `prototype/ship-builder`: the idle spaceship builder. In test.
+- `prototype/ship-builder`: the idle spaceship builder. Verdict: better. The ship and the mining stay. The ship must grow in two dimensions, and idle time must look alive.
 
 Prototypes use TypeScript + Vite + Canvas 2D. Buttons fake the reviews. No GitLab.
