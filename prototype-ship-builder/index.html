@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>Review Quest: ship builder prototype</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Review Quest <small>prototype: ship builder</small></h1>
+        <div class="headright">
+          <div id="focusControls"></div>
+          <button id="muteBtn">Sound: on</button>
+        </div>
+      </header>
+      <section id="top">
+        <div id="gitlab" class="col">
+          <div class="colhead">
+            <h2>Fake GitLab: waiting for your review</h2>
+            <button data-a="new-mr">New MR arrives</button>
+          </div>
+          <div id="mrList"></div>
+          <div class="colhead">
+            <h2>Your own MRs (eggs)</h2>
+            <button data-a="new-own">New own MR</button>
+          </div>
+          <div id="ownList"></div>
+          <div class="colhead">
+            <h2>Fake time</h2>
+            <div class="btns">
+              <button data-a="skip" data-sec="600">Skip 10 minutes</button>
+              <button data-a="skip" data-sec="3600">Skip 1 hour</button>
+            </div>
+          </div>
+          <div id="clock"></div>
+        </div>
+        <div id="shipyard" class="col">
+          <div class="locknote">The Shipyard is closed while you review.<br />Press "Look at the ship".</div>
+          <div id="shipyardBody"></div>
+        </div>
+      </section>
+      <section id="readout"></section>
+      <section id="strip">
+        <canvas id="canvas" height="210"></canvas>
+        <div id="curtain" class="curtain up"><div>You are reviewing…<br />the ship flies without you</div></div>
+      </section>
+    </div>
+    <div id="overlay" class="overlay" hidden></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
